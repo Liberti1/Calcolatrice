@@ -14,25 +14,25 @@ class Calcolatrice
         return self::$instance;
     }
 
-    public function add (int $x, int $y)
+    public function add(int $x, int $y)
     {
         $this->index = $x + $y;
         return $this->index;
     }
 
-    public function sot (int $x, int $y)
+    public function sot(int $x, int $y)
     {
         $this->index = $x - $y;
         return $this->index;
     }
 
-    public function molt (int $x, int $y)
+    public function molt(int $x, int $y)
     {
         $this->index = $x * $y;
         return $this->index;
     }
 
-    public function div (int $x, int $y)
+    public function div(int $x, int $y)
     {
         $this->index = $x / $y;
         return $this->index;

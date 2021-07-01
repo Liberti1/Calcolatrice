@@ -7,11 +7,11 @@ class CalcolatriceFacade
     {
 
         $a = new Calcolatrice();
-        $resA = $a->add ($x, $y);
+        $resA = $a->add($x, $y);
 
 
         $b = new Calcolatrice();
-        $resB = $b->add ($c, $d);
+        $resB = $b->add($c, $d);
 
 
         return $resA + $resB;
